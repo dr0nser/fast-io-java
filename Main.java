@@ -56,6 +56,12 @@ public class Main{
 		public void close() throws IOException {
 			bw.close();
 		}
+    	}
+	public static int sum(int... a){
+	    int ret = 0; 
+	    for(int v : a)
+	    ret += v; 
+	    return ret;
 	}
     public static void main(String[] args) {
         try {
